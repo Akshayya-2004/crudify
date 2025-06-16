@@ -1,0 +1,85 @@
+/* Container Styling */
+div {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fdfdfd; /* White background for the list */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styling */
+  h2 {
+    font-size: 24px;
+    color: #4e3b31; /* Dark brown header */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* List Styling */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between product info and buttons */
+    padding: 15px; /* Medium padding */
+    margin-bottom: 10px;
+    background-color: #fff; /* White background for list items */
+    border-radius: 10px;
+    border: 1px solid #c5b9a3; /* Light brown border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Product Information */
+  li span {
+    font-size: 18px;
+    color: #4e3b31; /* Dark brown text for product details */
+    flex-grow: 1; /* Allow the product info to grow and take available space */
+  }
+  
+  /* Button Container */
+  .button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 10px 15px; /* Medium padding for buttons */
+    font-size: 16px; /* Medium text size */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Update Button */
+  button:first-of-type {
+    background-color: #7d5a4d; /* Medium brown background for update */
+    color: #fff;
+  }
+  
+  button:first-of-type:hover {
+    background-color: #6a4c3a; /* Darker brown on hover */
+  }
+  
+  /* Delete Button */
+  button:nth-of-type(2) {
+    background-color: #e1b7a1; /* Soft muted coral background for delete */
+    color: #fff;
+  }
+  
+  button:nth-of-type(2):hover {
+    background-color: #cda19a; /* Darker muted coral on hover */
+  }
+  
+  /* Hover Effects */
+  li:hover {
+    background-color: #f9f9f9; /* Lighter gray on hover for list items */
+    transition: background-color 0.3s ease;
+  }
+  

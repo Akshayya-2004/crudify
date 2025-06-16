@@ -1,0 +1,63 @@
+/* Global Styles */
+body {
+  background-color: #d9c9b0; /* Light brown background for the entire page */
+  color: #4e3b31; /* Dark brown text */
+  font-family: 'Times New Roman', serif; /* Font style */
+  margin: 0; /* Reset default margin */
+}
+
+/* Form Container */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  margin: 50px auto; /* Center the form */
+  padding: 30px;
+  background-color: #fdfdfd; /* White background for the form */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 12px; /* Medium padding */
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #c5b9a3; /* Light brown border */
+  border-radius: 6px;
+  background-color: #fff; /* White input background */
+  color: #4e3b31; /* Dark brown text in inputs */
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: #8a7a66; /* Darker brown border on focus */
+  box-shadow: 0 0 5px rgba(138, 122, 102, 0.5);
+  outline: none;
+}
+
+/* Submit Button */
+button {
+  width: auto; /* Auto width for buttons */
+  padding: 10px 15px; /* Medium padding */
+  font-size: 16px; /* Medium text size */
+  color: #fff; /* White text */
+  background-color: #7d5a4d; /* Medium brown background */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #6a4c3a; /* Darker brown on hover */
+  box-shadow: 0 4px 10px rgba(125, 90, 77, 0.2);
+}
+
+/* Placeholder Styling */
+input::placeholder {
+  color: #b2a89d; /* Light gray for placeholder */
+}
